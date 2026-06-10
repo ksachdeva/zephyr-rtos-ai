@@ -9,6 +9,8 @@ description: Expert guidance on Zephyr kernel synchronization primitives (Semaph
 
 This skill provides expert knowledge on the four main synchronization primitives in the Zephyr kernel: Semaphores, Mutexes, Events, and Condition Variables. It helps in selecting the right primitive for the task and provides implementation details, common patterns, and pitfall avoidance.
 
+When synchronization choices affect whether threads block cleanly enough for the system to reach low-power states, also read [../zephyr-power-management/SKILL.md](../zephyr-power-management/SKILL.md).
+
 ## Workflow
 
 ### 1. Selection Strategy

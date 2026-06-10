@@ -364,3 +364,4 @@ For full working examples (GPIO LED, I2C sensor, SPI device, sensor driver): See
 - **zephyr-devicetree**: DT syntax, bindings, overlays
 - **zephyr-kconfig**: Driver configuration options
 - **zephyr-kernel-synchronization**: Locks in interrupt-driven drivers
+- **zephyr-power-management**: System PM, runtime PM usage patterns, and low-power design constraints

@@ -31,6 +31,7 @@ npx skills add ksachdeva/zephyr-rtos-ai
 | `zephyr-memory` | Memory management including heaps, memory slabs, memory blocks, memory domains, and virtual memory. |
 | `zephyr-net-socket` | BSD sockets, TLS/DTLS secure sockets, DNS resolution, and mDNS/LLMNR support. |
 | `zephyr-netbuf` | Network Buffer (`net_buf`) subsystem for buffer pools, reference counting, fragmentation, and protocol encoding. |
+| `zephyr-power-management` | System sleep states, runtime device PM, wake sources, PM policy constraints, and low-power measurement/debugging. |
 | `zephyr-settings` | Persistent configuration storage with settings handlers and NVS, ZMS, FCB, or File backends. |
 | `zephyr-shell-commands` | Shell subsystem for creating CLI commands, subcommands, argument parsing, and configuring shell backends. |
 | `zephyr-smf` | State Machine Framework for flat and hierarchical (HSM) state machines with entry/run/exit actions. |

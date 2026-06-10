@@ -9,6 +9,8 @@ description: Expert guidance on Zephyr RTOS thread management, scheduling, and w
 
 This skill provides expert knowledge on Zephyr kernel threading: creating and managing threads, understanding the scheduling model, selecting appropriate priorities, and using workqueues for deferred processing.
 
+When thread blocking behavior and idle residency matter for battery life or low-power operation, also read [../zephyr-power-management/SKILL.md](../zephyr-power-management/SKILL.md).
+
 ## Workflow
 
 ### 1. Determine Thread Type Needed

@@ -14,11 +14,30 @@ This document provides context for AI coding assistants (Open Code, Claude Code,
 ├── .venv                                   # `uv` created `.venv`
 ├── .vscode
 ├── skills                            # The Agent Skills for Zephyr RTOS
+│   ├── zephyr-bluetooth-le
+│   ├── zephyr-device-drivers
 │   ├── zephyr-devicetree
+│   ├── zephyr-fs
+│   ├── zephyr-gpio
+│   ├── zephyr-i2c
+│   ├── zephyr-isr
+│   ├── zephyr-json
 │   ├── zephyr-kconfig
 │   ├── zephyr-kernel-datapassing
 │   ├── zephyr-kernel-synchronization
-│   └── zephyr-shell-commands
+│   ├── zephyr-memory
+│   ├── zephyr-net-socket
+│   ├── zephyr-netbuf
+│   ├── zephyr-power-management
+│   ├── zephyr-settings
+│   ├── zephyr-shell-commands
+│   ├── zephyr-smf
+│   ├── zephyr-spi
+│   ├── zephyr-storage
+│   ├── zephyr-testing
+│   ├── zephyr-threading
+│   ├── zephyr-uart
+│   └── zephyr-wifi
 ├── AGENTS.md                               # This file
 ├── internal                                # Skills, Agents, Extra stuff to assist with the development in this repository
 │   ├── assets
@@ -38,6 +57,8 @@ This document provides context for AI coding assistants (Open Code, Claude Code,
 ## Project Overview
 
 The primary objective of this repository is to create reusable AI agents, skills, tools etc for Zephyr RTOS based firmware development.
+
+Current skill coverage includes core embedded topics such as devicetree, Kconfig, threading, synchronization, storage, networking, and power management.
 
 You have access to a meta skill called `zephyr-skill-creator` that acts as the guide on how to create
 various other skills.
